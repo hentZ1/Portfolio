@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <title>portfolio</title>
+</head>
+    <body>
+        <div class="container1">
+            <a href="https://github.com/hentZ1">
+                <button class="btn1">
+                    <img class="icon1" src="img/25231.png" alt="icon1">
+                </button>
+            </a>
+
+            <a href="sobre_mim.html">
+                <button class="btn2">
+                    Sobre mim
+                </button>
+            </a>
+        </div>
+
+        <div class="container2">
+            <h1 class="tittle1">Henri</h1>
+            <img class="img1"src="img/0c063124ae1a90b9ad2c697687dd10a9.jpg" alt="Foto de Perfil">
+        </div>
+
+        <button id="theme-toggle" class="mode">
+            <img class="icon2" src="img/dark_theme_regular_icon_204499.png" alt="">
+        </button>
+
+                <script>
+                    const toggleBtn = document.getElementById("theme-toggle");
+                    toggleBtn.addEventListener("click", () => {
+                         document.body.classList.toggle("dark-mode");
+                    });
+            </script>
+    </body>
+</html>

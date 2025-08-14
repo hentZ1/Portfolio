@@ -1,0 +1,98 @@
+body {
+    background: linear-gradient(
+        358deg,
+        rgba(240, 12, 12, 1) 0%,
+        rgba(247, 123, 35, 1) 50%,
+        rgba(241, 245, 42, 1) 100%
+    );
+    background-size: 400% 400%;
+    animation: gradientMove 8s ease infinite;
+    height: 100vh;
+    margin: 0;
+}
+@keyframes gradientMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+body.dark-mode {
+    background: linear-gradient(
+        358deg,
+        rgba(4, 92, 181, 1) 0%,
+        rgba(0, 63, 173, 1) 50%,
+        rgba(1, 13, 66, 1) 100%
+    );
+    background-size: 400% 400%;
+    animation: gradientMoveDark 10s ease infinite;
+    color: white;
+    transition: all 0.3s ease;
+}
+@keyframes gradientMoveDark {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+.container1 .btn1{
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+
+}
+.container1 .btn2{
+     position: absolute;
+    top: 450px;
+    left: 775px;
+    width: 250px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 10px 20px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-glass:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+.container1 .icon1{
+    position: absolute;
+    top: 510px;
+    left: 775px;
+    width: 35px;
+    height: auto;
+}
+.container2 .img1{
+    position: absolute;
+    top: 200px;
+    left: 800px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
+}
+.container2 .tittle1{
+    position: absolute;
+    top: 390px;
+    left: 869px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+
+}
+.mode{
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+
+}
+.icon2{
+    width: 35px;
+    height: auto;
+
+}
