@@ -58,7 +58,7 @@ body.dark-mode {
 .container1 .btn2{
      position: absolute;
     top: 450px;
-    left: 43.5%;
+    left: 42.9%;
     width: 250px;
     height: 50px;
     background: rgba(255, 255, 255, 0.1);
@@ -86,7 +86,7 @@ body.dark-mode {
 .container2 .img1{
     position: absolute;
     top: 200px;
-    left: 45%;
+    left: 44%;
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -95,7 +95,7 @@ body.dark-mode {
 .container2 .tittle1{
     position: absolute;
     top: 390px;
-    left: 48.5%;
+    left: 47.8%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: x-large;
 
