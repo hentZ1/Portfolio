@@ -35,8 +35,7 @@ body{
         red
     );
     background-size: 400%;
-    animation: rgbBorder 6s linear infinite;
-    -webkit-mask:
+    animation: rgbBorder 6s linear infinite;-webkit-mask:
         linear-gradient(#fff 0 0) content-box,
         linear-gradient(#fff 0 0);
     -webkit-mask-composite: xor; /* recorta o centro */
