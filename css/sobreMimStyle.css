@@ -1,0 +1,58 @@
+body{
+    background-image: url("../img/wp12249961.jpg");
+    background-size: cover;
+    height: 100vh;
+
+}
+.container1 {
+    position: relative;
+    background: rgba(0, 0, 0, 0.85); /* fundo da caixa */
+    padding: 20px;
+    margin: 50px auto;
+    width: 60%;
+    border-radius: 12px;
+    color: white;
+    text-align: center;
+    z-index: 1;
+}
+
+/* Borda animada */
+.container1::before {
+    content: "";
+    position: absolute;
+    inset: 0; /* ocupa toda a área */
+    padding: 3px; /* espessura da borda */
+    border-radius: 12px;
+    background: linear-gradient(
+        90deg,
+        red,
+        orange,
+        yellow,
+        lime,
+        cyan,
+        blue,
+        magenta,
+        red
+    );
+    background-size: 400%;
+    animation: rgbBorder 6s linear infinite;
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor; /* recorta o centro */
+            mask-composite: exclude; /* para navegadores que suportam */
+    z-index: -1;
+}
+
+/* Animação do gradiente */
+@keyframes rgbBorder {
+    0%   { background-position: 0% 50%; }
+    100% { background-position: 400% 50%; }
+}
+.container1 .paragrafh{
+    color: white;
+
+
+
+
+}
